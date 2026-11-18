@@ -33,8 +33,8 @@ public class Customer implements Runnable {
 
             // 2. Join queue (blocks if full)
             long enqueueTime = System.currentTimeMillis();
-            queue.joinQueue(id);
             CheckoutQueueTimes.recordEnqueue(id, enqueueTime);
+            queue.joinQueue(id);
             customersQueued.incrementAndGet();
 
             System.out.printf("[Customer %d] shopped %dms, joined queue%n", id, shopTime);
