@@ -1,4 +1,10 @@
-Number of customers: Number of cashiers: Queue capacity: Min/Max shop time (ms): Min/Max service time (ms): [Customer 11] shopped 209ms, joined queue
+Number of customers: 20
+Number of cashiers: 3
+Queue capacity: 2
+Min/Max shop time (ms): 200/600
+Min/Max service time (ms): 800/2000
+
+[Customer 11] shopped 209ms, joined queue
 [Customer 7] shopped 231ms, joined queue
 [Customer 2] shopped 258ms, joined queue
 [Customer 15] shopped 267ms, joined queue
