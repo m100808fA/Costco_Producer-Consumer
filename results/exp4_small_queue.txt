@@ -1,0 +1,52 @@
+Number of customers: Number of cashiers: Queue capacity: Min/Max shop time (ms): Min/Max service time (ms): [Customer 11] shopped 209ms, joined queue
+[Customer 7] shopped 231ms, joined queue
+[Customer 2] shopped 258ms, joined queue
+[Customer 15] shopped 267ms, joined queue
+[Customer 12] shopped 299ms, joined queue
+[Cashier 3] served customer 7 (wait=0 ms, service=969ms)
+[Customer 3] shopped 319ms, joined queue
+[Cashier 1] served customer 11 (wait=2 ms, service=1002ms)
+[Customer 10] shopped 333ms, joined queue
+[Cashier 2] served customer 2 (wait=0 ms, service=1475ms)
+[Customer 6] shopped 394ms, joined queue
+[Cashier 1] served customer 12 (wait=923 ms, service=1292ms)
+[Customer 13] shopped 498ms, joined queue
+[Cashier 3] served customer 15 (wait=935 ms, service=1463ms)
+[Customer 16] shopped 493ms, joined queue
+[Cashier 2] served customer 3 (wait=1418 ms, service=947ms)
+[Customer 4] shopped 496ms, joined queue
+[Cashier 2] served customer 13 (wait=2194 ms, service=822ms)
+[Customer 20] shopped 509ms, joined queue
+[Cashier 1] served customer 10 (wait=2186 ms, service=1495ms)
+[Customer 9] shopped 520ms, joined queue
+[Cashier 3] served customer 6 (wait=2276 ms, service=1433ms)
+[Customer 5] shopped 524ms, joined queue
+[Cashier 2] served customer 16 (wait=3022 ms, service=1568ms)
+[Customer 18] shopped 528ms, joined queue
+[Cashier 1] served customer 4 (wait=3524 ms, service=1463ms)
+[Customer 19] shopped 529ms, joined queue
+[Cashier 3] served customer 20 (wait=3600 ms, service=1758ms)
+[Customer 1] shopped 537ms, joined queue
+[Cashier 3] served customer 18 (wait=5345 ms, service=1071ms)
+[Customer 8] shopped 543ms, joined queue
+[Cashier 2] served customer 9 (wait=4568 ms, service=1973ms)
+[Customer 14] shopped 555ms, joined queue
+[Cashier 1] served customer 5 (wait=4965 ms, service=1654ms)
+[Customer 17] shopped 558ms, joined queue
+[Cashier 3] served customer 19 (wait=6421 ms, service=1586ms)
+[Cashier 1] served customer 8 (wait=6606 ms, service=1556ms)
+[Cashier 2] served customer 1 (wait=6529 ms, service=1666ms)
+[Cashier 3] served customer 14 (wait=7987 ms, service=1569ms)
+[Cashier 1] served customer 17 (wait=8149 ms, service=1417ms)
+
+===== SIMULATION REPORT =====
+Customers:        20
+Cashiers:         3
+Queue capacity:   2
+Total time:       10157 ms (10.16 s)
+Customers served: 20
+Average wait:     3532 ms
+Max wait:         8149 ms
+Throughput:       7088.7 customers/hour
+=============================
+
